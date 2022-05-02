@@ -80,7 +80,7 @@ const AddCoinSection = () => {
     const filteredCoins = allCoins.filter(coin => coin.name.toUpperCase().includes(inputVal.toUpperCase()))
     
     return (
-        <>
+        <div className={styles.content_wrapper}>
             <div className={styles.header}>
                 <i className={`${styles.backBtn} fa-solid fa-arrow-left fa-2x`} onClick={() => history(-1)}></i>
                 <h1 className={styles.headerTitle}>Search &amp; Add More Crtpyo Currencies</h1>
@@ -114,7 +114,17 @@ const AddCoinSection = () => {
                     }
                 </ul>
             </div>
-        </>
+            <div className={styles.btn_container}>
+                    <i 
+                        className={`fa-solid fa-arrow-up fa-lg ${styles.scroll_top_btn}`}
+                        onClick={() => window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth',
+                        })}
+                    >
+                    </i>
+            </div>
+        </div>
     );
 };
 
