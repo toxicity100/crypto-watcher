@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.com/svgjs" width="800" height="200" preserveAspectRatio="none" viewBox="0 0 800 200">
+    <g mask="url(&quot;#SvgjsMask1388&quot;)" fill="none">
+        <rect width="800" height="200" x="0" y="0" fill="#777"></rect>
+        <path
+            d="M0 157.83L10 155.45L20 174.7L30 158.66L40 177.91L50 183.98L60 177.7L70 165.25L80 169.25L90 176.06L100 173.63L110 163.11L120 150.75L130 160.32L140 150.1L150 145.57L160 154.35L170 139.6L180 157.26L190 161.86L200 165.13L210 175.16L220 194.25L230 199.37L240 186.24L250 181.11L260 185.75L270 165.78L280 143.22L290 154.66L300 177.35L310 199.27L320 179.56L330 163.28L340 173.59L350 169.69L360 145.31L370 164.05L380 188.61L390 174.41L400 184.96L410 172.31L420 182.61L430 175.25L440 177.82L450 195.54L460 176.91L470 197.27L480 196.12L490 189.99L500 172.74L510 150.88L520 141.85L530 131.09L540 141.77L550 140.36L560 162.06L570 143.37L580 144.78L590 141.96L600 144.88L610 163.08L620 138.32L630 114.88L640 128.9L650 139.41L660 155.53L670 169.17L680 148.83L690 144L700 164.65L710 142.84L720 126.59L730 143.81L740 159.14L750 177.28L760 179.09L770 177.82L780 186.67L790 191.38L800 188.32L800 200L0 200z"
+            fill="url(#SvgjsLinearGradient1389)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1388">
+            <rect width="800" height="200" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="SvgjsLinearGradient1389">
+            <stop stop-opacity="0.9" stop-color="#000" offset="0"></stop>
+            <stop stop-opacity="0" stop-color="#000" offset="1"></stop>
+        </linearGradient>
+    </defs>
+</svg>

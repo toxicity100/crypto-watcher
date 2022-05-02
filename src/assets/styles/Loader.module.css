@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+    transform: rotate(0);
+    animation: rotate 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

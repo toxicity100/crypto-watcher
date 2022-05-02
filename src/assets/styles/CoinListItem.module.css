@@ -1,0 +1,38 @@
+.listItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #aaa;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.listItem > img {
+    width: 60px;
+    -webkit-user-drag: none;
+}
+
+.info {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.info > p {
+    cursor: default;
+}
+
+@media (max-width: 550px) {
+    .info {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 400px) {
+    .info {
+        display: initial;
+        width: fit-content;
+    }
+}
