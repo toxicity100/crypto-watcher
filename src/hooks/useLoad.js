@@ -1,6 +1,7 @@
 const useLoad = (setWatchList) => {
     window.addEventListener('load', () => {
-        setWatchList(JSON.parse(localStorage.getItem("selectedCoins")));
+        const selectedCoins = JSON.parse(localStorage.getItem("selectedCoins"));
+        setWatchList(selectedCoins);
     });
 }
 

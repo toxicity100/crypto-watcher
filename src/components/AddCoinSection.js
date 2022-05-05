@@ -60,7 +60,12 @@ const AddCoinSection = () => {
 
     const addHandler = () => {
         if (selectedCoins.length) {
-            const allShownCoins = [...watchList, ...selectedCoins];
+            let allShownCoins;
+            if (watchList && allShownCoins) {
+                allShownCoins = [...watchList, ...selectedCoins];
+            } else {
+                allShownCoins = ['bitcoin', 'ethereum', 'tether', ...selectedCoins];
+            }
             const uniqueShownCoins = [...new Set(allShownCoins)];
             localStorage.setItem("selectedCoins", JSON.stringify(uniqueShownCoins));
             setWatchList(uniqueShownCoins);
